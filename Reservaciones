@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Reservaciones</title>
+ 
+    </head>
+    <body>
+        <style>
+
+            #inicio {
+                position: absolute;
+                top: 15px;
+                left: 10px;
+                color: black;
+                text-decoration: none;
+            }
+            #sobre_nosotros {
+                position: absolute;
+                top: 15px;
+                left: 100px;
+                color: black;
+                text-decoration: none;
+            }
+            #reservaciones {
+                position: absolute;
+                top: 15px;
+                left: 300px; 
+                color: black;
+                text-decoration: none;
+            }
+            #contacto {
+                position: absolute;
+                top: 15px;
+                left: 500px;
+                color: black;
+                text-decoration: none;
+            } 
+            #pagina {
+                position: absolute;
+                top: 40px;
+            }
+        </style>
+    
+    <a href="file:///C:/Users/morap/OneDrive/Escritorio/Destinos%20CaribeCR/P%C3%A1gina/destinos/destinos-caribe-cr.html", id="inicio"><strong>Inicio</strong></a>
+    <a href="file:///C:/Users/morap/OneDrive/Escritorio/Destinos%20CaribeCR/P%C3%A1gina/destinos/Sobre%20nosotros.html", id="sobre_nosotros"> <strong>Sobre nosotros</strong> </a>
+    <a href="file:///C:/Users/morap/OneDrive/Escritorio/Destinos%20CaribeCR/P%C3%A1gina/destinos/Reservaciones.html", id="reservaciones"> <strong>Reservaciones</strong></a>
+    <a href="file:///C:/Users/morap/OneDrive/Escritorio/Destinos%20CaribeCR/P%C3%A1gina/destinos/Contacto.html", id="contacto"><strong>Contacto</strong></a>
+<div id="pagina">
+    <ul>
+        <li>
+        <a href="#lanna-ban"> Lanna Ban Hotel </a> 
+        </li>
+        <li>
+            <a href="#villas-caribe"> Villas del Caribe </a>
+         </li>
+         <li>
+           <a href="#umami"> Umami Hotel </a> 
+         </li> 
+         <li>
+            <a href="#coco-loco"> Coco Loco Lodge Hotel Bungalows </a>  
+         </li>    
+         <li>
+            <a href="#rocking"> Rocking J's </a> 
+         </li>       
+    </ul>
+    <h3 id= "lanna-ban">
+    Lanna Ban Hotel
+    </h3>
+    <img src = "C:\Users\morap\OneDrive\Escritorio\Destinos CaribeCR\Info\Imágenes\204198485.jpg", alt = "Habitación Lanna Ban Hotel", width="400px">
+    <p>
+    El Lanna Ban Hotel está situado en Puerto Viejo y dispone de acceso directo a la playa. Ofrece conexión WiFi gratuita, jardín exótico y arquitectura tailandesa contemporánea.
+    </p>
+    <p>
+    Las habitaciones del Lanna Ban Hotel están equipadas con escritorio, mesa de comedor, TV de pantalla plana vía satélite, baño privado con artículos de aseo gratuitos y bañera o ducha, caja fuerte y ropa de cama.
+    </p>
+    <p>
+    El hotel cuenta con mostrador de información turística, servicio de alquiler de bicicletas y aparcamiento gratuito.
+    </p>
+    <p>
+    A las parejas les encanta la ubicación — Le han puesto un 9,2 para viajes de dos personas.
+    </p>
+    <!--Tomado de: https://www.booking.com/hotel/cr/lanna-ban.es.html?aid=311839;label=lanna-ban-LgBUKuJnaw8NbyAIFLIz*AS388761460232%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-92703266726%3Alp1003674%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YcUc3ZfdbbfEuXomSVxn0TU;sid=791011db789009749580c6b7d064d241;dest_id=-1108716;dest_type=city;dist=0;from_beach_non_key_ufi_sr=1;group_adults=2;group_children=0;hapos=1;hpos=1;no_rooms=1;room1=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1621892750;srpvid=a11c990735cb0096;type=total;ucfs=1;sig=v1-B6e_8ei#hotelTmpl-->
+    <h3 id="villas-caribe">
+    Villas del Caribe
+    </h3>
+    <img src="C:\Users\morap\OneDrive\Escritorio\Destinos CaribeCR\Info\Imágenes\139236078.jpg", alt="Habitación Villas del Caribe", width="400px">
+    <p>
+    Las Villas del Caribe se encuentran en Puerto Viejo, a 300 metros de la playa Chiquita, y ofrecen alojamiento con restaurante, aparcamiento privado gratuito, piscina al aire libre y bar. Se encuentra a 1,6 km del centro de rescate Jaguar y dispone de jardín y terraza. Hay servicio de habitaciones y WiFi gratuita en todas las instalaciones.
+    </p>
+    <p>
+    Las habitaciones del hotel están equipadas con TV de pantalla plana. Las habitaciones están equipadas con baño privado con ducha, secador de pelo y artículos de aseo gratuitos.
+    </p>
+    <p>
+    Todas las mañanas se sirve un desayuno continental en las Villas del Caribe.
+    </p>
+    <p>
+    El alojamiento cuenta con mesa de ping pong.
+    </p>
+    <!--Tomado de: https://www.booking.com/hotel/cr/villas-del-caribe.es.html?aid=311839;label=lanna-ban-LgBUKuJnaw8NbyAIFLIz*AS388761460232%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-92703266726%3Alp1003674%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YcUc3ZfdbbfEuXomSVxn0TU;sid=791011db789009749580c6b7d064d241;dest_id=-1108716;dest_type=city;dist=0;from_beach_non_key_ufi_sr=1;group_adults=2;group_children=0;hapos=2;hpos=2;no_rooms=1;room1=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1621892750;srpvid=a11c990735cb0096;type=total;ucfs=1;sig=v1reZwcQt5#hotelTmpl -->
+    
+    <h3 id= "umami">
+    Umami Hotel
+    </h3>
+    <img src= "C:\Users\morap\OneDrive\Escritorio\Destinos CaribeCR\Info\Imágenes\descarga.jpg" , alt="Vista desde arriba Unami Hotel", width="350px">
+    <p>
+    A 5 minutos de la playa, UMAMI Hotel Graden Spa le ofrece un servicio de calidad con una decoración fresca y minimalista de color blanco con acabados en coral y madera
+    </p>
+    
+    <h3 id= "coco-loco">
+    Coco Loco Lodge Hotel Bungalows
+    </h3>
+    <img src="C:\Users\morap\OneDrive\Escritorio\Destinos CaribeCR\Info\Imágenes\265120165.jpg", alt="Piscina Coco Loco Lodge Hotel Bungalows", width="350px">
+    <p>
+    El Coco Loco Lodge se encuentra en Puerto Viejo, a 70 metros de la playa Negra, y ofrece alojamiento con piscina al aire libre, aparcamiento privado gratuito, salón compartido y jardín. Ofrece habitaciones familiares y zona de barbacoa. El alojamiento ofrece recepción 24 horas, servicio de enlace con el aeropuerto, cocina compartida y conexión WiFi gratuita en todas las instalaciones.
+    
+    Las habitaciones del hotel están equipadas con zona de estar, TV de pantalla plana con canales por cable y baño privado con secador de pelo y ducha. También incluyen escritorio y cafetera.
+    
+    El Coco Loco Lodge sirve un desayuno continental todas las mañanas.
+    
+    El alojamiento dispone de terraza.
+    
+    El centro de rescate Jaguar se encuentra a 5 km del Coco Loco Lodge.
+    </p>
+    <h3 id= "rocking">
+    Rocking J's
+    </h3>
+    <img src="C:\Users\morap\OneDrive\Escritorio\Destinos CaribeCR\Info\Imágenes\144459088.jpg", alt= "Entrada Rocking J's", width="300px". height="250">
+    <p>
+    El Rocking J's se encuentra justo en la playa Salsa Brava, en Puerto Viejo, y cuenta con un bar restaurante y exuberantes jardines. Este albergue artístico dispone de WiFi gratuita y cocina y salón de TV compartidos.
+    
+    El Rocking J's ofrece una amplia gama de alojamiento de estilo rústico, incluyendo habitaciones privadas, habitaciones compartidas, tiendas de campaña y hamacas. Todos los alojamientos incluyen ropa de cama y tienen acceso a un baño compartido.
+    
+    El albergue ofrece materiales gratuitos para pintar y hacer mosaicos. En la finca del establecimiento se hacen hogueras por la noche. La recepción está abierta las 24 horas y el establecimiento también tiene aparcamiento gratuito.
+    
+    La playa Salsa Brava, donde se encuentra el Rocking J's, es un lugar popular para la práctica del surf. A poca distancia a pie, en Puerto Viejo, hay muchos restaurantes y bares. El aeropuerto de Limón está a 55 km.
+    </p>
+</div>
+        
+        </body>
+        </html>
+    </body>
