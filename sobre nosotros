@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Sobre nosotros</title>
+ 
+    </head>
+    <body>
+        <style>
+            #inicio {
+                position: absolute;
+                top: 15px;
+                left: 10px;
+                color: black;
+                text-decoration: none;
+            }
+            #sobre_nosotros {
+                position: absolute;
+                top: 15px;
+                left: 100px;
+                color: black;
+                text-decoration: none;
+            }
+            #reservaciones {
+                position: absolute;
+                top: 15px;
+                left: 300px; 
+                color: black;
+                text-decoration: none;
+            }
+            #contacto {
+                position: absolute;
+                top: 15px;
+                left: 500px;
+                color: black;
+                text-decoration: none;
+            } 
+            #quienes_somos {
+                position: absolute;
+                top: 30px;
+
+            }
+        </style>
+    
+
+    <a href="file:///C:/Users/morap/OneDrive/Escritorio/Destinos%20CaribeCR/P%C3%A1gina/destinos/destinos-caribe-cr.html", id="inicio"><strong>Inicio</strong></a>
+    <a href="file:///C:/Users/morap/OneDrive/Escritorio/Destinos%20CaribeCR/P%C3%A1gina/destinos/Sobre%20nosotros.html", id="sobre_nosotros"> <strong>Sobre nosotros</strong> </a>
+    <a href="file:///C:/Users/morap/OneDrive/Escritorio/Destinos%20CaribeCR/P%C3%A1gina/destinos/Reservaciones.html", id="reservaciones"> <strong>Reservaciones</strong></a>
+    <a href="file:///C:/Users/morap/OneDrive/Escritorio/Destinos%20CaribeCR/P%C3%A1gina/destinos/Contacto.html", id="contacto"><strong>Contacto</strong></a>
+        <div id="quienes_somos">
+            <h1>
+                ¿Quiénes somos?
+            </h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+             </p>
+
+        </div>
+        
+    </body>
