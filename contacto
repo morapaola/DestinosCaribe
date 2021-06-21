@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Contacto</title>
+ 
+    </head>
+    <body>
+        <style>
+            #inicio {
+                position: absolute;
+                top: 15px;
+                left: 10px;
+                color: black;
+                text-decoration: none;
+            }
+            #sobre_nosotros {
+                position: absolute;
+                top: 15px;
+                left: 100px;
+                color: black;
+                text-decoration: none;
+            }
+            #reservaciones {
+                position: absolute;
+                top: 15px;
+                left: 300px; 
+                color: black;
+                text-decoration: none;
+            }
+            #contacto {
+                position: absolute;
+                top: 15px;
+                left: 500px;
+                color: black;
+                text-decoration: none;
+            } 
+            #formulario{
+                position: absolute;
+                top: 40px;
+            }
+            </style>
+            <a href="file:///C:/Users/morap/OneDrive/Escritorio/Destinos%20CaribeCR/P%C3%A1gina/destinos/destinos-caribe-cr.html", id="inicio"><strong>Inicio</strong></a>
+            <a href="file:///C:/Users/morap/OneDrive/Escritorio/Destinos%20CaribeCR/P%C3%A1gina/destinos/Sobre%20nosotros.html", id="sobre_nosotros"> <strong>Sobre nosotros</strong> </a>
+            <a href="file:///C:/Users/morap/OneDrive/Escritorio/Destinos%20CaribeCR/P%C3%A1gina/destinos/Reservaciones.html", id="reservaciones"> <strong>Reservaciones</strong></a>
+            <a href="file:///C:/Users/morap/OneDrive/Escritorio/Destinos%20CaribeCR/P%C3%A1gina/destinos/Contacto.html", id="contacto"><strong>Contacto</strong></a>
+            <div id="formulario">
+                <form action="C:\Users\morap\OneDrive\Escritorio\Destinos CaribeCR\Info" method="post">
+                    <ul>
+                       <label for="name">Nombre:</label>
+                       <input type="text" id="name" name="nombre de usuario">
+                       <label for="mail">Correo electrónico:</label>
+                       <input type="email" id="mail" name="correo electrónico">
+                       <label for="msg">Mensaje:</label>
+                       <textarea id="msg" name="escriba aquí"></textarea>
+                    </ul>
+                    <class="button">
+                        <button type="submit">Enviar</button>
+                   </form>
+            </div>
+            
