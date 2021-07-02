@@ -1,0 +1,35 @@
+
+#inicio {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+#sobre_nosotros {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+#reservaciones {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+#contacto {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+} 
+
+#barra {
+    background-color:#397DCF;
+    padding: 10px;    
+}
+#encabezado {
+    color: #41BAAE;
+}
+#subtitulo {
+    color: #002E5D;
+}
+#texto {
+    background-color: #D2E3F9;
+}
