@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Formulario</title>
+        <link rel="STYLESHEET" type="text/css" href="estilo.css">
+        <link rel="shortcut icon" href="imagenes\favicon.ico">
+    </head>
+    <body>
+        <style>
+            .formulario { 
+                background-color: #D2E3F9;
+            }
+            input {
+                margin:3%
+            }
+        </style>
+        <h1 id="encabezado"> Destinos Caribe CR <br>
+            <span id="subtitulo">
+            La mejor opción
+            </span>
+             </h1>
+            <div id="barra">
+                <a href="index.html" id="inicio"><strong>Inicio</strong></a>
+                <a href="sobre-nosotros.html" id="sobre_nosotros"> <strong>Sobre nosotros</strong> </a>
+                <a href="reservaciones.html" id="reservaciones"> <strong>Reservaciones</strong></a>
+                <a href="contacto.html" id="contacto"><strong>Contacto</strong></a>
+            </div>
+            <div class="formulario">
+                 <form action="C:\Users\morap\OneDrive\Escritorio\Destinos CaribeCR\Info" method="post">
+            <div id= "usuario"> 
+           <label for="name">Nombre:</label>
+           <input type="text" id="name" name="nombre de usuario"> <br>
+        </div>
+        <div id="correo">
+           <label for="mail">Correo electrónico:</label>
+           <input type="email" id="mail" name="correo electrónico"> <br>
+        </div>
+        <div>
+            <label for="msg">Fecha de reservación:</label>
+          <input type="date">  
+        </div>
+        <div>
+            <label for="msg">Fecha de regreso:</label>
+          <input type="date">  
+        </div>
+
+        <class="button">
+            <button type="submit" id="enviar">Enviar</button>
+       </form>
+            </div> 
+       
+    </body>

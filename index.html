@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Inicio</title>
+        <link rel="STYLESHEET" type="text/css" href="estilo.css">
+        <link rel="shortcut icon" href="imagenes\favicon.ico">
+    </head>
+    <body>
+        <style>
+              .contenido{
+          width: 100%;
+          margin-top: 5%;
+        }
+        ul, li {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+        ul.slider{
+          position: relative;
+          width: 100%;
+          height: 300px;
+        }
+        ul.slider li {
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            opacity: 0;
+            width: inherit;
+            height: inherit;
+            transition: opacity .5s;
+            background:#fff;
+        }
+        ul.slider li img{
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+        ul.slider li:first-child {
+            opacity: 1; 
+        }
+        ul.slider li:target {
+            opacity: 1; 
+        }
+        .menu{
+          text-align: center;
+          width: 101%;
+
+        }
+        
+        .menu li{
+          display: inline-block;
+          text-align: center;
+        }
+        
+        .menu li a{
+          display: inline-block;
+          color: white;
+          text-decoration: none;
+          background-color: grey;
+          padding: 10px;
+          width: 20px;
+          height: 20px;
+          font-size: 20px;
+          border-radius: 90%;
+        }
+        </style>
+        <h1 id="encabezado"> Destinos Caribe CR <br>
+        <span id="subtitulo">
+        La mejor opción
+        </span>
+         </h1>
+            <div id="barra">
+          <a href="index.html" id="inicio"><strong>Inicio</strong></a>
+          <a href="sobre-nosotros.html" id="sobre_nosotros"> <strong>Sobre nosotros</strong> </a>
+          <a href="reservaciones.html" id="reservaciones"> <strong>Reservaciones</strong></a>
+          <a href="contacto.html" id="contacto"><strong>Contacto</strong></a>
+            </div>
+           
+            <div class="contenido">
+                <ul class="slider">
+                  <li id="slide1">
+                    <img src="imagenes\playanegra.jpeg">
+                  </li>
+                  <li id="slide2">
+                    <img src="imagenes\puertovargas.jpg">
+                  </li>
+                  <li id="slide3">
+                    <img src="imagenes\lannahotel.jpg">
+                  </li>
+                </ul>
+                <ul class="menu">
+                  <li>
+                    <a href="#slide1">1</a>
+                  </li>
+                  <li>
+                    <a href="#slide2">2</a>
+                  </li>
+                  <li>
+                    <a href="#slide3">3</a>
+                  </li>
+                  <li>
+                    <a href="reservaciones.html">></a>
+                  </li>
+                </ul>
+              </div>  
+    
+            <div id="texto">
+           
+        <h2> ¿Cómo es Limón?
+               
+        </h2>  
+        <p>
+           La provincia de Limón corre a lo largo de toda la costa este del país desde la frontera de Nicaragua hasta la frontera de Panamá. Caliente y húmedo durante casi todo el año, la provincia de Limón recibe más lluvia que el resto del país, con los grandes aguaceros que se producen entre mayo y agosto, y luego en diciembre y enero.
+        </p>
+        <!--Tomado de: https://puravida.com/es/limon-costa-rica/-->
+         
+        
+   
+     
+        </div>
+    </body>
